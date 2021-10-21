@@ -8,11 +8,17 @@
     <title>Multiplication</title>
 </head>
 <body>
-    <div class="container text-center mt-5 pt-5">
-    <form method="POST">
-        <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Enter Number:</label>
-            <input type="text" class="form-control" name="number" id="exampleInputPassword1">
+    <div class="container text-center mt-5">
+    <form method="POST" class="border border-primary p-5">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Enter Number:</label>
+                    <input type="text" class="form-control" name="number" id="exampleInputPassword1">
+                </div>
+            </div>
+            <div class="col-md-4"></div>
         </div>
         <button type="submit" id="submit" name="submit" class="btn btn-primary">Submit</button>
     </form>
@@ -24,6 +30,6 @@
 <?php
 if(isset($_POST['submit'])){
     $num=$_POST['number'];
+    header("Location: http://localhost/multiply/mulTable.php");
 }
-
 ?>
