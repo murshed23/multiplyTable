@@ -30,6 +30,6 @@
 <?php
 if(isset($_POST['submit'])){
     $num=$_POST['number'];
-    header("Location: http://localhost/multiply/mulTable.php");
+    header("Location: http://localhost/multiply/mulTable.php?number=$num");
 }
 ?>
