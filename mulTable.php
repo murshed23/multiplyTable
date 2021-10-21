@@ -11,7 +11,7 @@
     <title>Multiplication</title>
 </head>
 <body>
-    <div class="container text-center border border-primary mt-5">
+    <div class="container text-center border border-primary rounded-3 mt-5">
     <table class="table table-striped">
         <thead>
             <th>Operation</th>

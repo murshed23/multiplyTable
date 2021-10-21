@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container text-center mt-5">
-    <form method="POST" class="border border-primary p-5">
+    <form method="POST" class="border border-primary rounded-3 p-5">
         <div class="row">
             <div class="col-md-4"></div>
             <div class="col-md-4">
